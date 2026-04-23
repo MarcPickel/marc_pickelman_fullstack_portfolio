@@ -3,17 +3,26 @@ import "./Nav.css";
 import { NavLink } from "react-router-dom";
 
 function Nav() {
-  <nav class="nav">
-    <button class="nav__button" type="button">
-      SEO
-    </button>
-    <button class="nav__button" type="button">
-      Writing
-    </button>
-    <button class="nav__button" type="button">
-      About
-    </button>
-  </nav>;
+  return (
+    <nav className="nav">
+      <div>toggle switch</div>
+      <NavLink to="/seo">
+        <button className="nav__button" type="button">
+          SEO
+        </button>
+      </NavLink>
+      <NavLink to="/writing">
+        <button className="nav__button" type="button">
+          Writing
+        </button>
+      </NavLink>
+      <NavLink to="/about">
+        <button className="nav__button" type="button">
+          About
+        </button>
+      </NavLink>
+    </nav>
+  );
 }
 
 export default Nav;
