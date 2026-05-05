@@ -1,4 +1,26 @@
+@font-face {
+  src: url(../../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+}
+
 .nav {
   display: flex;
   gap: 20px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.nav__button {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-image: linear-gradient(black, black);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s linear;
+}
+
+.nav__button:hover {
+  cursor: pointer;
+  background-size: 100% 3px;
 }

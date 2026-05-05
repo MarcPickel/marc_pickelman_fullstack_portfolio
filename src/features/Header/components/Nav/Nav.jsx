@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <nav className="nav">
-      <div>toggle switch</div>
       <NavLink to="/seo">
         <button className="nav__button" type="button">
           SEO

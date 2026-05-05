@@ -1,3 +1,8 @@
+@font-face {
+  src: url(../../vendor/fonts/Monomakh-Regular.ttf);
+  font-family: "Monomakh";
+}
+
 .header {
   display: flex;
   align-items: end;
@@ -5,13 +10,10 @@
   position: relative;
 }
 
-.header__content {
-  display: flex;
-  gap: 10px;
-}
-
 .header__text {
   margin: auto 0 0;
+  font-family: "Monomakh", "Times New Roman", serif;
+  font-size: 24px;
 }
 
 .header__star {
