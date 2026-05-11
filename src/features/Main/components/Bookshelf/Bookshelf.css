@@ -1,7 +1,25 @@
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bookshelf__books {
   height: 225px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 2px;
+}
+
+.bookshelf__shelf {
+  width: 80%;
+  height: 30px;
+  background-image: repeating-linear-gradient(
+    to top,
+    #542e0a,
+    #633509 10%,
+    #542e0a 20%
+  );
+  box-shadow: 0 5px 7px #000;
 }
