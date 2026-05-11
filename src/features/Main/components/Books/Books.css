@@ -1,0 +1,146 @@
+.book__wrapper {
+  display: inline-flex;
+}
+
+.book {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.book__cover {
+  box-shadow: 1px 1px 2px #212121;
+}
+
+.book_sm {
+  height: 150px;
+}
+
+.book_md {
+  height: 175px;
+}
+
+.book_lg {
+  height: 200px;
+}
+
+.book__top {
+  width: 60px;
+  height: 4px;
+  background-image: repeating-linear-gradient(
+    to right,
+    white,
+    black 2%,
+    white 5%
+  );
+  transition: height 0.2s ease-in-out;
+}
+.book__wrapper:hover .book__cover {
+  transform: translateY(8px);
+}
+
+.book__cover:hover {
+  box-shadow: 1px 4px 4px #212121;
+  cursor: pointer;
+}
+
+.book__wrapper:hover .book__top {
+  height: 9px;
+}
+
+.book__top_black {
+  border-left: 6px solid #242426;
+  border-right: 6px solid #242426;
+  box-sizing: border-box;
+}
+
+.book__top_gray {
+  border-left: 6px solid #6e707d;
+  border-right: 6px solid #6e707d;
+  box-sizing: border-box;
+}
+
+.book__top_red {
+  border-left: 6px solid #512121;
+  border-right: 6px solid #512121;
+  box-sizing: border-box;
+}
+
+.book__top_orange {
+  border-left: 6px solid #d37f00;
+  border-right: 6px solid #d37f00;
+  box-sizing: border-box;
+}
+
+.book__top_yellow {
+  border-left: 6px solid #7f5804;
+  border-right: 6px solid #7f5804;
+  box-sizing: border-box;
+}
+
+.book__top_green {
+  border-left: 6px solid #14602c;
+  border-right: 6px solid #14602c;
+  box-sizing: border-box;
+}
+
+.book__top_blue {
+  border-left: 6px solid #2a3065;
+  border-right: 6px solid #2a3065;
+  box-sizing: border-box;
+}
+
+.book__cover_black {
+  background-image: linear-gradient(to right, #242426, #555559, #242426);
+}
+
+.book__cover_gray {
+  background-image: linear-gradient(to right, #6e707d, #9193a1, #6e707d);
+}
+
+.book__cover_red {
+  background-image: linear-gradient(to right, #512121, #843535, #512121);
+}
+
+.book__cover_orange {
+  background-image: linear-gradient(to right, #d37f00, #fdaa2d, #d37f00);
+}
+
+.book__cover_yellow {
+  background-image: linear-gradient(to right, #7f5804, #b27c06, #7f5804);
+}
+
+.book__cover_green {
+  background-image: linear-gradient(to right, #14602c, #1f9344, #14602c);
+}
+
+.book__cover_blue {
+  background-image: linear-gradient(to right, #2a3065, #404998, #2a3065);
+}
+
+.book__title {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  writing-mode: vertical-lr;
+  rotate: -180deg;
+}
+
+.book__title_gold {
+  border-top: 4px solid gold;
+  border-bottom: 4px solid gold;
+}
+
+.book__title_silver {
+  border-top: 4px solid silver;
+  border-bottom: 4px solid silver;
+}
+
+.book__title_blue {
+  border-top: 4px solid #2a3065;
+  border-bottom: 4px solid #2a3065;
+}

@@ -1,0 +1,7 @@
+.bookshelf__books {
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2px;
+}

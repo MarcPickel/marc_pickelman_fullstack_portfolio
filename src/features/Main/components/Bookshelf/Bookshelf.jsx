@@ -1,14 +1,15 @@
 import "./Bookshelf.css";
+import { SmBook, MdBook, LgBook } from "../Books/Books.jsx";
 
 function Bookshelf() {
   return (
     <div className="bookshelf">
       {/* Books in descending order based on time: newer -> older */}
       <div className="bookshelf__books">
-        <div className="bookshelf__book">Simple Psalter App</div>
-        <div className="bookshelf__book">Man's Search For Reading</div>
-        <div className="bookshelf__book">WTWR</div>
-        <div className="bookshelf__book">Spots</div>
+        <SmBook title="Smpl Psltr" color="green" band="silver" />
+        <MdBook title="MSFR" color="blue" band="silver" />
+        <LgBook title="WTWR" color="gray" band="blue" />
+        <MdBook title="Spots" color="yellow" band="blue" />
       </div>
       <div className="bookshelf__shelf"></div>
     </div>
