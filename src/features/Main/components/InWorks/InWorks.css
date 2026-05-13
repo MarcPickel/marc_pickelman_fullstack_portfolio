@@ -1,0 +1,23 @@
+.in-works {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.in-works__plate {
+  width: 150px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 10px solid #361e06;
+  overflow: hidden;
+}
+
+.in-works__image {
+  width: 100%;
+}

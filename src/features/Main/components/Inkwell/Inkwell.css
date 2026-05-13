@@ -1,0 +1,154 @@
+.inkwell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inkwell:hover {
+  cursor: pointer;
+}
+
+.inkwell__cork {
+  width: 50px;
+  height: 0;
+  border-top: 50px solid #b9a855;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-radius: 6px;
+  transform: translateY(10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.inkwell__bottle {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+.inkwell:hover .inkwell__cork {
+  transform: translateY(-15px);
+}
+
+.inkwell__bottle-top {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+}
+
+.inkwell__bottle-lip {
+  width: 90px;
+  height: 10px;
+}
+
+.inkwell__bottle-neck {
+  width: 70px;
+  height: 10px;
+}
+
+.inkwell__bottle-body {
+  width: 100px;
+  height: 90px;
+  box-shadow: 1px 3px 5px #504f4f6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inkwell__ink {
+  margin-bottom: 10px;
+  width: 80px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  bottom: -85px;
+}
+
+/* Black inkwell */
+.inkwell__bottle_glass_black {
+  position: relative;
+  background: linear-gradient(#4d4d4d7b, #0000006a);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+
+.inkwell__bottle_glass_black::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(#fff, #e8e8e8) border-box;
+  border: 1px solid #00000063;
+  mask:
+    linear-gradient(black) border-box,
+    linear-gradient(black) padding-box;
+  mask-composite: subtract;
+}
+
+/* Red inkwell */
+.inkwell__bottle_glass_red {
+  position: relative;
+  background: linear-gradient(#cb20207b, #5e0a0a6a);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+
+.inkwell__bottle_glass_red::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(#fff, #e8e8e8) border-box;
+  border: 1px solid #5e0a0a6a;
+  mask:
+    linear-gradient(black) border-box,
+    linear-gradient(black) padding-box;
+  mask-composite: subtract;
+}
+
+/* Green inkwell */
+.inkwell__bottle_glass_green {
+  position: relative;
+  background: linear-gradient(#2a9b4e7b, #0952207b);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+
+.inkwell__bottle_glass_green::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(#fff, #e8e8e8) border-box;
+  border: 1px solid #0952207b;
+  mask:
+    linear-gradient(black) border-box,
+    linear-gradient(black) padding-box;
+  mask-composite: subtract;
+}
+
+/* Blue inkwell */
+.inkwell__bottle_glass_blue {
+  position: relative;
+  background: linear-gradient(#1831947b, #171e7a6a);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+
+.inkwell__bottle_glass_blue::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(#fff, #e8e8e8) border-box;
+  border: 1px solid #18308f63;
+  mask:
+    linear-gradient(black) border-box,
+    linear-gradient(black) padding-box;
+  mask-composite: subtract;
+}

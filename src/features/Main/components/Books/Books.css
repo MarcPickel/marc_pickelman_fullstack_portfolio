@@ -13,6 +13,7 @@
 
 .book__cover {
   box-shadow: 1px 1px 2px #212121;
+  opacity: 0.9;
 }
 
 .book_sm {
@@ -45,6 +46,7 @@
 .book__cover:hover {
   box-shadow: 1px 4px 4px #212121;
   cursor: pointer;
+  opacity: 1;
 }
 
 .book__wrapper:hover .book__top {
