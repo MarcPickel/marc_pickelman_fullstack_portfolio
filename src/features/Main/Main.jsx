@@ -14,7 +14,7 @@ function Main() {
         </h1>
         <p className="main__text main__text_right">from cover to cover.</p>
         <p className="main__subtext">
-          I'm a full-stack web developer, enchanted with words and their ability
+          I'm a full-stack web developer, enamored with words and their ability
           to&nbsp;
           <span className="main__link">
             <NavLink>forge</NavLink>
