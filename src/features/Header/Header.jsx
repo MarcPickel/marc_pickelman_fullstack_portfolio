@@ -9,7 +9,6 @@ function Header() {
       <NavLink to="/">
         <p className="header__text">Pickelman</p>
       </NavLink>
-
       <Nav />
     </header>
   );

@@ -12,6 +12,14 @@
   position: relative;
 }
 
+.header__container {
+  display: flex;
+}
+
+.header__icon {
+  width: 40px;
+}
+
 .header__text {
   margin: auto 0 0;
   font-family: "Monomakh", "Times New Roman", serif;

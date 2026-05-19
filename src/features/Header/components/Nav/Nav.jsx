@@ -2,6 +2,8 @@ import "./Nav.css";
 
 import { NavLink } from "react-router-dom";
 
+import quill from "../../../../assets/black_quill.svg";
+
 function Nav() {
   return (
     <nav className="nav">
@@ -19,6 +21,9 @@ function Nav() {
         <button className="nav__button" type="button">
           About
         </button>
+      </NavLink>
+      <NavLink>
+        <img src={quill} className="nav__icon" />
       </NavLink>
     </nav>
   );

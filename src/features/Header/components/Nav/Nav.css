@@ -6,6 +6,7 @@
 .nav {
   display: flex;
   gap: 20px;
+  align-items: end;
   font-family: "Inter", Arial, sans-serif;
 }
 
@@ -25,4 +26,8 @@
   cursor: pointer;
   color: #375ace;
   background-size: 100% 3px;
+}
+
+.nav__icon {
+  width: 40px;
 }

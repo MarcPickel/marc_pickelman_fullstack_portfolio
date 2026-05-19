@@ -29,6 +29,11 @@
   color: #375ace;
 }
 
+.footer__header:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
 .footer__text {
   margin: 0;
 }
