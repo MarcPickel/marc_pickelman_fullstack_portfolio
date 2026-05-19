@@ -1,0 +1,49 @@
+@font-face {
+  src: url(../../../../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+}
+
+.story__content {
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.story__column {
+  width: 60%;
+}
+
+.story__text {
+  font-size: 20px;
+}
+
+.story__link {
+  color: #375ace;
+  background: transparent;
+  text-decoration: none;
+  background-image: linear-gradient(#375ace, #375ace);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s linear;
+}
+
+.story__link:hover {
+  color: #375ace;
+  background-size: 100% 3px;
+}
+
+.story__row {
+  display: flex;
+  gap: 8px;
+}
+
+.story__icon {
+  width: 40px;
+}
+
+.story__icon:hover {
+  opacity: 0.6;
+}
+
+.story__image {
+}

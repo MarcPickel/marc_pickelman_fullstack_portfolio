@@ -1,6 +1,7 @@
 import "./Main.css";
 import Bookshelf from "./components/Bookshelf/Bookshelf.jsx";
 import InWorks from "./components/InWorks/InWorks.jsx";
+import Story from "./components/Story/Story.jsx";
 
 import { NavLink } from "react-router-dom";
 
@@ -41,6 +42,12 @@ function Main() {
           In the Works
         </h2>
         <InWorks />
+      </section>
+      <section className="main__story">
+        <h2 className="main__works-header main__header_special">
+          Tell Me Your Story
+        </h2>
+        <Story />
       </section>
     </main>
   );
