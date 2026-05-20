@@ -9,12 +9,12 @@
 
 .main {
   margin: 0 20%;
-  padding: 50px 0;
+  padding: 0;
   font-family: "Inter", Arial, sans-serif;
 }
 
 .main__intro {
-  margin-bottom: 40px;
+  margin: 100px 0 150px;
   font-size: 30px;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .main__text_right {
-  margin: 0 0 50px 225px;
+  margin: 0 0 50px 325px;
 }
 
 .main__header {
   margin: 0 0 4px;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 60px;
   color: #375ace;
 }
 
@@ -56,10 +56,11 @@
 .main__link:hover {
   color: #375ace;
   background-size: 100% 3px;
+  cursor: pointer;
 }
 
 .main__featured {
-  margin: 0 0 40px;
+  margin: 0 0 150px;
 }
 
 .main__featured-header {
@@ -68,10 +69,23 @@
   font-size: 30px;
 }
 
+.main__featured-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main__featured-link {
+  margin: 50px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .main__in-works {
+  margin: 0 0 150px;
 }
 
 .main__works-header {
+  margin: 0 0 30px;
   font-weight: 600;
   font-size: 30px;
 }

@@ -17,7 +17,9 @@ function InWorks() {
        * Upon hovering, the cork on the top lifts/pops off
        */}
       <div className="in-works__container">
-        <Inkwell color="green" />
+        <a href="https://www.postgresql.org/docs/current/" target="_blank">
+          <Inkwell color="green" />
+        </a>
         <div className="in-works__label">
           <img className="in-works__image" src={elephant} />
           <div className="in-works__column">
@@ -27,7 +29,9 @@ function InWorks() {
         </div>
       </div>
       <div className="in-works__container">
-        <Inkwell color="blue" />
+        <a href="https://www.typescriptlang.org/docs/" target="_blank">
+          <Inkwell color="blue" />
+        </a>
         <div className="in-works__label">
           <img className="in-works__image" src={ts} />
           <div className="in-works__column">
@@ -37,7 +41,9 @@ function InWorks() {
         </div>
       </div>
       <div className="in-works__container">
-        <Inkwell color="red" />
+        <a href="https://www.prisma.io/docs" target="_blank">
+          <Inkwell color="red" />
+        </a>
         <div className="in-works__label">
           <img className="in-works__image" src={prisma} />
           <div className="in-works__column">

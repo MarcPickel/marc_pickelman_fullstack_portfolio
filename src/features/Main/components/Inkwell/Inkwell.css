@@ -9,13 +9,13 @@
 }
 
 .inkwell__cork {
-  width: 50px;
+  width: 85px;
   height: 0;
-  border-top: 50px solid #b9a855;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
+  border-top: 60px solid #b9a855;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
   border-radius: 6px;
-  transform: translateY(10px);
+  transform: translateY(40px);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -37,33 +37,22 @@
   align-items: inherit;
 }
 
-.inkwell__bottle-lip {
-  width: 90px;
-  height: 10px;
-}
-
-.inkwell__bottle-neck {
-  width: 70px;
-  height: 10px;
-}
-
 .inkwell__bottle-body {
-  width: 100px;
-  height: 90px;
+  width: 150px;
+  height: 120px;
   box-shadow: 1px 3px 5px #504f4f6c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  position: relative;
 }
 
 .inkwell__ink {
-  margin-bottom: 10px;
-  width: 80px;
-  height: 60px;
+  margin: auto;
+  width: 120px;
+  height: 80px;
   background-color: black;
   position: absolute;
-  bottom: -85px;
+  z-index: -1;
+  inset: 0;
+  transform: translateY(25px);
 }
 
 /* Black inkwell */
@@ -71,7 +60,7 @@
   position: relative;
   background: linear-gradient(#4d4d4d7b, #0000006a);
   backdrop-filter: blur(8px);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .inkwell__bottle_glass_black::before {
@@ -93,7 +82,7 @@
   position: relative;
   background: linear-gradient(#cb20207b, #5e0a0a6a);
   backdrop-filter: blur(8px);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .inkwell__bottle_glass_red::before {
@@ -115,7 +104,7 @@
   position: relative;
   background: linear-gradient(#2a9b4e7b, #0952207b);
   backdrop-filter: blur(8px);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .inkwell__bottle_glass_green::before {
@@ -137,7 +126,7 @@
   position: relative;
   background: linear-gradient(#1831947b, #171e7a6a);
   backdrop-filter: blur(8px);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .inkwell__bottle_glass_blue::before {
@@ -152,4 +141,16 @@
     linear-gradient(black) border-box,
     linear-gradient(black) padding-box;
   mask-composite: subtract;
+}
+
+.inkwell__bottle-lip {
+  width: 125px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.inkwell__bottle-neck {
+  width: 110px;
+  height: 20px;
+  border-radius: 0;
 }

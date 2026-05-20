@@ -16,8 +16,8 @@ function Inkwell({ color }) {
         <div
           className={`inkwell__bottle-body inkwell__bottle_glass_${color}`}
         ></div>
+        <div className="inkwell__ink"></div>
       </div>
-      <div className="inkwell__ink"></div>
     </div>
   );
 }

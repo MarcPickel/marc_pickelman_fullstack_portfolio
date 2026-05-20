@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className="footer__column">
         <p className="footer__column-header">Pages</p>
-        <NavLink to="/">
+        <NavLink to="/" onClick={handleTopScroll}>
           <p className="footer__link">Home</p>
         </NavLink>
         <NavLink to="/seo">

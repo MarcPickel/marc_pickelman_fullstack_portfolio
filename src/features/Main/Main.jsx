@@ -16,26 +16,35 @@ function Main() {
         <p className="main__text main__text_right">from cover to cover.</p>
         <p className="main__subtext">
           I'm a full-stack web developer, enamored with words and their ability
-          to&nbsp;
-          <span className="main__link">
-            <NavLink>forge</NavLink>
-          </span>
-          ,&nbsp;
-          <span className="main__link">
-            <NavLink>find</NavLink>
-          </span>
-          , and&nbsp;
-          <span className="main__link">
-            <NavLink>fill</NavLink>
-          </span>
-          &nbsp;digital spaces.
+          to{" "}
+          <a href="#feat" className="main__link">
+            forge
+          </a>
+          ,{" "}
+          <NavLink to="/seo">
+            <span className="main__link">find</span>
+          </NavLink>
+          , and{" "}
+          <NavLink to="/writing">
+            <span className="main__link">fill</span>
+          </NavLink>{" "}
+          digital spaces.
         </p>
       </div>
       <section className="main__featured">
-        <h2 className="main__featured-header main__header_special">
+        <h2 className="main__featured-header main__header_special" id="feat">
           Featured Projects
         </h2>
         <Bookshelf />
+        <div className="main__featured-container">
+          <a
+            href="#story"
+            className="main__link main__featured-link"
+            type="button"
+          >
+            Fill the shelf
+          </a>
+        </div>
       </section>
       <section className="main__in-works">
         <h2 className="main__works-header main__header_special">
@@ -43,7 +52,7 @@ function Main() {
         </h2>
         <InWorks />
       </section>
-      <section className="main__story">
+      <section id="story" className="main__story">
         <h2 className="main__works-header main__header_special">
           Tell Me Your Story
         </h2>
