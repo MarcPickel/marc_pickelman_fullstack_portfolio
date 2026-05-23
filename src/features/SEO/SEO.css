@@ -14,6 +14,7 @@
 }
 
 .seo__intro {
+  margin-bottom: 20px;
   border-bottom: solid 2px black;
 }
 
@@ -27,12 +28,30 @@
 }
 
 .seo__title {
+  margin: 0 0 4px;
 }
 
 .seo__text {
   margin: 0 0 20px;
 }
 
+.seo__date {
+  margin: 0 0 20px;
+}
+
 .seo__link {
-  color: black;
+  color: #375ace;
+  background: transparent;
+  text-decoration: none;
+  background-image: linear-gradient(#375ace, #375ace);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s linear;
+}
+
+.seo__link:hover {
+  color: #375ace;
+  background-size: 100% 3px;
+  cursor: pointer;
 }
