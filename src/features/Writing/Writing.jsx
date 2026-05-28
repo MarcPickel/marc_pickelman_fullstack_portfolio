@@ -8,101 +8,213 @@ function Writing() {
       <div className="writing__intro">
         <h1 className="writing__header_one">Writing</h1>
         <p className="writing__text">
-          I have 3 years of professional writing experience and, along with my{" "}
+          Writing, along with the love of stories, poetry, languages and,
+          altogether, books, continues to play a significant role in my life's
+          endeavors and has influenced many of my pursuits, such as{" "}
           <NavLink to="/">
             <span className="writing__link">software engineering</span>
           </NavLink>{" "}
           and{" "}
-          <NavLink to="/writing">
-            <span className="writing__link">writing</span>
+          <NavLink to="/seo">
+            <span className="writing__link">search engine optimization</span>
           </NavLink>
-          , continuously seek to improve my understanding and ability in this
-          digital trade.
+          .
         </p>
-        <h2 className="writing__header_two">writing Tools:</h2>
+        <h2 className="writing__header_two">Authors and Poets I Recommend:</h2>
         <p className="writing__text">
           <a
-            href="https://ahrefs.com/"
+            href="https://en.wikipedia.org/wiki/Aesop"
             className="writing__link"
             target="_blank"
           >
-            Ahrefs
+            Aesop
           </a>
           ,{" "}
           <a
-            href="https://www.semrush.com/"
+            href="https://en.wikipedia.org/wiki/Andrew_Lang"
             className="writing__link"
             target="_blank"
           >
-            SemRush
+            Andrew Lang
           </a>
           ,{" "}
           <a
-            href="https://developers.google.com/analytics"
+            href="https://anthonyesolenauthor.com/"
             className="writing__link"
             target="_blank"
           >
-            Google Analytics
+            Anthony Esolen
           </a>
           ,{" "}
           <a
-            href="https://search.google.com/search-console/about"
+            href="https://en.wikipedia.org/wiki/Brothers_Grimm"
             className="writing__link"
             target="_blank"
           >
-            Google Search Console
+            Brothers Grimm
           </a>
           ,{" "}
           <a
-            href="https://business.google.com/en-all/ad-tools/keyword-planner/"
+            href="https://en.wikipedia.org/wiki/C._S._Lewis"
             className="writing__link"
             target="_blank"
           >
-            Google Keyword Planner
+            C.S. Lewis
           </a>
           ,{" "}
           <a
-            href="https://trends.google.com/trends/"
+            href="https://en.wikipedia.org/wiki/Carl_Sandburg"
             className="writing__link"
             target="_blank"
           >
-            Google Trends
+            Carl Sandburg
           </a>
           ,{" "}
           <a
-            href="https://tinypng.com/"
+            href="https://en.wikipedia.org/wiki/Dante_Alighieri"
             className="writing__link"
             target="_blank"
           >
-            TinyPNG
+            Dante Alighieri
           </a>
           ,{" "}
           <a
-            href="https://www.localfalcon.com/"
+            href="https://en.wikipedia.org/wiki/G._K._Chesterton"
             className="writing__link"
             target="_blank"
           >
-            LocalFalcon
+            G.K. Chesterton
           </a>
           ,{" "}
           <a
-            href="https://www.writingptimer.com/backlink-checker/"
+            href="https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
             className="writing__link"
             target="_blank"
           >
-            writingptimer Backlink Checker
+            Hans Christian Andersen
           </a>
           ,{" "}
           <a
-            href="https://www.brightlocal.com/"
+            href="https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow"
             className="writing__link"
             target="_blank"
           >
-            BrightLocal
+            Henry Wadsworth Longfellow
           </a>
           ,{" "}
-          <a href="https://moz.com/" className="writing__link" target="_blank">
-            Moz
+          <a
+            href="https://en.wikipedia.org/wiki/Homer"
+            className="writing__link"
+            target="_blank"
+          >
+            Homer
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Howard_Pyle"
+            className="writing__link"
+            target="_blank"
+          >
+            Howard Pyle
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/John_Milton"
+            className="writing__link"
+            target="_blank"
+          >
+            John Milton
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/J._R._R._Tolkien"
+            className="writing__link"
+            target="_blank"
+          >
+            J.R.R. Tolkien
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Nathaniel_Hawthorne"
+            className="writing__link"
+            target="_blank"
+          >
+            Nathaniel Hawthorne
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Robert_Browning"
+            className="writing__link"
+            target="_blank"
+          >
+            Robert Browning
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Robert_Frost"
+            className="writing__link"
+            target="_blank"
+          >
+            Robert Frost
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Robert_W._Service"
+            className="writing__link"
+            target="_blank"
+          >
+            Robert W. Service
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Rudyard_Kipling"
+            className="writing__link"
+            target="_blank"
+          >
+            Rudyard Kipling
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Sigrid_Undset"
+            className="writing__link"
+            target="_blank"
+          >
+            Sigrid Undset
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Washington_Irving"
+            className="writing__link"
+            target="_blank"
+          >
+            Washington Irving
+          </a>
+          ,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/William_Shakespeare"
+            className="writing__link"
+            target="_blank"
+          >
+            William Shakespeare
+          </a>
+          , and many more besides.
+        </p>
+        <p className="writing__text">
+          {" "}
+          For a fuller list of recommended books, see{" "}
+          <a
+            href="https://www.faithandculture.com/home/2019/1/15-the-legacy-of-john-senior"
+            className="writing__link"
+            target="_blank"
+          >
+            John Senior's
+          </a>{" "}
+          <a
+            href="https://seascs.net/documents/2017/10/John%20Senior%20The%20Thousand%20Good%20Books%20List.pdf"
+            className="writing__link"
+            target="_blank"
+          >
+            "The Thousand Good Books."
           </a>
         </p>
       </div>

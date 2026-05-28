@@ -27,12 +27,16 @@
   font-size: 24px;
 }
 
+.seo__box {
+  margin-bottom: 20px;
+}
+
 .seo__title {
   margin: 0 0 4px;
 }
 
 .seo__text {
-  margin: 0 0 20px;
+  margin: 0 0 4px;
 }
 
 .seo__date {
