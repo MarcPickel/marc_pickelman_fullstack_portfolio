@@ -220,38 +220,30 @@ function Writing() {
       </div>
       <div className="writing__container">
         <div className="writing__box">
-          <h3 className="writing__title">SE writing LinkedIn Campaign</h3>
-          <p className="writing__date">January, 2026 - Present</p>
+          <h3 className="writing__title">Fair Phyllis All Alone</h3>
+          <p className="writing__date">Poem - In Progress</p>
           <p className="writing__text">
-            A dual-purpose campaign aimed at manipulating LinkedIn search
-            results and boosting online interactions to promote my new
-            full-stack software engineer profile in an effort to connect with
-            new people and provide the services of a web developer.
+            A poem to be submitted to the First Things Third Annual Poetry
+            Prize. Inspired by the Medieval madrigal, "Fair Phyllis", this poem
+            empathetically seats itself beside the sorrowful shepherdess before
+            her lover ever found her.
           </p>
         </div>
         <div className="writing__box">
-          <h3 className="writing__title">DIY writing Campaign</h3>
-          <p className="writing__date">2025 - Present</p>
-          <p className="writing__text">
-            A campaign to build a product that would help non-writing experts
-            map out keyword and link strategies in externally sourced posts to
-            improve search results for their website. It would allow experts in
-            particular fields to write knowledgeable and experienced content
-            online while getting guidance in search engine optimization, instead
-            of an expert in writing writing content about something he has no
-            experience in.
+          <h3 className="writing__title">From the Codex: The Bardic Tales</h3>
+          <p className="writing__date">
+            A Series of Short Stories - In Progress
           </p>
-        </div>
-        <div className="writing__box">
-          <h3 className="writing__title">
-            writing Specialist | Tiger29 | Sioux Falls, SD
-          </h3>
-          <p className="writing__date">November, 2019 - August 2022</p>
           <p className="writing__text">
-            A local writing company that trained me in Organic writing with
-            local businesses. I utilized GBP, WordPress, Ahrefs, AWS, and
-            numerous Google products to implement keyword and link strategies
-            and manipulate search engines.
+            A series of short stories linked to tell a grander, fictional tale.
+            Taking place in a fantastical Medieval Time, Brother Brian develops
+            in his cell what we moderns call "code", an ancient, programmatic
+            language which he inscribes on his other invention, the Illuminated
+            Document. As it quickly becomes mainstream, one Wizard, Smartilack
+            the Unfortunate, accidentally casts a spell on an Illuminated
+            Document that embeds the whole world with Brother Brian's code.
+            Although this disaster brings a greater good and order to the world,
+            it also brings with it a great evil.
           </p>
         </div>
       </div>
