@@ -5,6 +5,7 @@ import Header from "./features/Header/Header.jsx";
 import Main from "./features/Main/Main.jsx";
 import SEO from "./features/SEO/SEO.jsx";
 import Writing from "./features/Writing/Writing.jsx";
+import About from "./features/About/About.jsx";
 import Footer from "./features/Footer/Footer.jsx";
 
 // import { useState } from "react";
@@ -15,11 +16,8 @@ function App() {
       <Header />
       {/*<Main />*/}
       {/*<SEO />*/}
-      <Writing />
-      {/*
-      Pages go here:
-      About
-      */}
+      {/*<Writing />*/}
+      <About />
       <Footer />
     </div>
   );
