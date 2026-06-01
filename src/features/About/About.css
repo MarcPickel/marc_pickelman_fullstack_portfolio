@@ -1,28 +1,99 @@
+@font-face {
+  src: url(../../vendor/fonts/Monomakh-Regular.ttf);
+  font-family: "Monomakh";
+}
+@font-face {
+  src: url(../../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+}
+
 .about {
   margin: 0 20%;
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about__header {
+  font-family: "Monomakh", "Times New Roman", serif;
+  font-size: 40px;
 }
 
 .about__section {
+  margin: 0 0 30px;
+  width: 600px;
+}
+
+.about__section_intro {
+  margin: 0 0 50px;
+  width: auto;
 }
 
 .about__title {
+  margin: 0 0 10px;
+  font-family: "Monomakh", "Times New Roman", serif;
+  font-size: 32px;
 }
 
 .about__text {
+  margin: 0;
+  font-size: 20px;
+}
+
+.about__text_extra_space {
+  margin: 0 0 8px;
+}
+
+.about__text_intro {
+  margin: 0 0 20px;
+  font-size: 30px;
 }
 
 .about__image {
   width: 400px;
 }
 
+.about__image:hover {
+  cursor: pointer;
+}
+
+.about__container {
+  display: flex;
+  gap: 40px;
+}
+
 .about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .about__list {
+  margin: 12px 0 0;
+  padding: 0;
 }
 
 .about__list_item {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.about__link {
+  color: #375ace;
+  background: transparent;
+  text-decoration: none;
+  background-image: linear-gradient(#375ace, #375ace);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s linear;
+}
+
+.about__link:hover {
+  color: #375ace;
+  background-size: 100% 3px;
+  cursor: pointer;
 }
