@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Header from "./features/Header/Header.jsx";
 import Main from "./features/Main/Main.jsx";
@@ -14,10 +14,12 @@ function App() {
   return (
     <div className="app">
       <Header />
-      {/*<Main />*/}
-      {/*<SEO />*/}
-      {/*<Writing />*/}
-      <About />
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+        <Route path="/seo" element={<SEO />}></Route>
+        <Route path="/writing" element={<Writing />}></Route>
+        <Route path="/about" element={<About />}></Route>
+      </Routes>
       <Footer />
     </div>
   );

@@ -22,10 +22,18 @@ function Story() {
         </p>
         <p className="story__text">You can also reach me online!</p>
         <div className="story__row">
-          <a href="https://www.linkedin.com/in/marc-pickelman" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/marc-pickelman"
+            title="Marc's LinkedIn"
+            target="_blank"
+          >
             <img className="story__icon" src={linkedin} />
           </a>
-          <a href="https://github.com/MarcPickel" target="_blank">
+          <a
+            href="https://github.com/MarcPickel"
+            title="Marc's GitHub"
+            target="_blank"
+          >
             <img className="story__icon" src={github} />
           </a>
         </div>

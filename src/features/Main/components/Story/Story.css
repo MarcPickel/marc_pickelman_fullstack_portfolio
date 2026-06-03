@@ -19,18 +19,11 @@
 
 .story__link {
   color: #375ace;
-  background: transparent;
-  text-decoration: none;
-  background-image: linear-gradient(#375ace, #375ace);
-  background-size: 0 3px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s linear;
+  font-weight: bold;
 }
 
 .story__link:hover {
-  color: #375ace;
-  background-size: 100% 3px;
+  opacity: 0.6;
 }
 
 .story__row {
@@ -44,7 +37,4 @@
 
 .story__icon:hover {
   opacity: 0.6;
-}
-
-.story__image {
 }

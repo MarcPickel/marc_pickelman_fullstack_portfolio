@@ -119,6 +119,7 @@ function About() {
           >
             GitHub
           </a>
+          .
         </p>
       </section>
     </div>

@@ -4,8 +4,26 @@ import InWorks from "./components/InWorks/InWorks.jsx";
 import Story from "./components/Story/Story.jsx";
 
 import { NavLink } from "react-router-dom";
+import { useRef } from "react";
 
 function Main() {
+  const featRef = useRef(null);
+  const storyRef = useRef(null);
+
+  const handleFeatScroll = () => {
+    featRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+  const handleStoryScroll = () => {
+    storyRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <main className="main">
       <div className="main__intro">
@@ -17,9 +35,13 @@ function Main() {
         <p className="main__subtext">
           I'm a full-stack web developer, enamored with words and their ability
           to{" "}
-          <a href="#feat" className="main__link">
+          <button
+            className="main__link main__link_button"
+            type="button"
+            onClick={handleFeatScroll}
+          >
             forge
-          </a>
+          </button>
           ,{" "}
           <NavLink to="/seo">
             <span className="main__link">find</span>
@@ -32,18 +54,22 @@ function Main() {
         </p>
       </div>
       <section className="main__featured">
-        <h2 className="main__featured-header main__header_special" id="feat">
+        <h2
+          className="main__featured-header main__header_special"
+          ref={featRef}
+        >
           Featured Projects
         </h2>
         <Bookshelf />
         <div className="main__featured-container">
-          <a
-            href="#story"
-            className="main__link main__featured-link"
+          <button
             type="button"
+            className="main__link main__featured-link_button"
+            type="button"
+            onClick={handleStoryScroll}
           >
             Fill the shelf
-          </a>
+          </button>
         </div>
       </section>
       <section className="main__in-works">
@@ -52,7 +78,7 @@ function Main() {
         </h2>
         <InWorks />
       </section>
-      <section id="story" className="main__story">
+      <section ref={storyRef} className="main__story">
         <h2 className="main__works-header main__header_special">
           Tell Me Your Story
         </h2>
