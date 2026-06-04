@@ -6,6 +6,8 @@
 
 .inkwell:hover {
   cursor: pointer;
+  background-color: hsla(0, 0%, 0%, 0.04);
+  box-shadow: 0 0 50px 15px hsla(0, 0%, 0%, 0.05);
 }
 
 .inkwell__cork {

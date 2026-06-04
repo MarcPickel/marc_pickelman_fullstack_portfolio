@@ -93,11 +93,15 @@ function About() {
         <p className="about__text about__text_extra_space">
           If you wish to share in an adventure with me, I'd be delighted. Just
           shoot me an{" "}
-          <a href="mailto:marcpc@att.net" className="about__link">
+          <a
+            href="mailto:marcpc@att.net"
+            className="about__link"
+            title="Email me"
+          >
             email
           </a>{" "}
           or get on the{" "}
-          <a href="tel:9063228501" className="about__link">
+          <a href="tel:9063228501" className="about__link" title="Call me">
             horn
           </a>
           !
@@ -108,6 +112,7 @@ function About() {
             href="https://www.linkedin.com/in/marc-pickelman"
             className="about__link"
             target="_blank"
+            title="Connect with me"
           >
             LinkedIn
           </a>{" "}
@@ -116,6 +121,7 @@ function About() {
             href="https://github.com/MarcPickel"
             className="about__link"
             target="_blank"
+            title="Check 'er out"
           >
             GitHub
           </a>

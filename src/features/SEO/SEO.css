@@ -9,53 +9,63 @@
 
 .seo {
   margin: 0 20%;
-  padding: 0;
   font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.seo__intro {
+.seo__section {
   margin-bottom: 20px;
-  border-bottom: solid 2px black;
+  padding-bottom: 20px;
+  width: 600px;
+  border-bottom: solid 1px black;
+}
+
+.seo__section_intro {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  border-bottom: none;
+}
+
+.seo__section_work {
+  display: inherit;
+  flex-direction: inherit;
+  gap: 30px;
 }
 
 .seo__header_one {
   font-family: "Monomakh", "Times New Roman", serif;
+  font-size: 40px;
 }
 
 .seo__header_two {
   margin: 0 0 10px;
+  font-family: "Monomakh", "Times New Roman", serif;
   font-size: 24px;
-}
-
-.seo__box {
-  margin-bottom: 20px;
 }
 
 .seo__title {
   margin: 0 0 4px;
+  font-family: "Monomakh", "Times New Roman", serif;
+  font-size: 24px;
 }
 
 .seo__text {
-  margin: 0 0 4px;
+  margin: 0;
 }
 
 .seo__date {
   margin: 0 0 20px;
+  font-size: 20px;
 }
 
 .seo__link {
   color: #375ace;
-  background: transparent;
-  text-decoration: none;
-  background-image: linear-gradient(#375ace, #375ace);
-  background-size: 0 3px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s linear;
 }
 
 .seo__link:hover {
-  color: #375ace;
-  background-size: 100% 3px;
+  opacity: 0.6;
   cursor: pointer;
 }

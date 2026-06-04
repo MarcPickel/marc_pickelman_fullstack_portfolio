@@ -1,5 +1,4 @@
 import "./Header.css";
-import Nav from "./components/Nav/Nav.jsx";
 
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -20,12 +19,12 @@ function Header() {
           onClick={() => {
             handleClick("");
           }}
-          className="header__text"
+          className="header__title"
         >
           Pickelman
         </p>
       </NavLink>
-      <nav className="nav">
+      <nav className="header__nav">
         <NavLink to="/seo">
           <button
             onClick={() => {
