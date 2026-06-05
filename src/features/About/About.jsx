@@ -47,13 +47,61 @@ function About() {
           hot day. Here are five of my favorite books.
         </p>
         <ul className="about__list">
-          <li className="about__list_item">1. The Holy Bible</li>
-          <li className="about__list_item">2. The Hobbit</li>
-          <li className="about__list_item">3. The Lord of the Rings</li>
           <li className="about__list_item">
-            4. The Merry Adventures of Robin Hood
+            1.{" "}
+            <a
+              href="https://bible.usccb.org/bible"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              The Holy Bible
+            </a>
           </li>
-          <li className="about__list_item">5. The Song of Hiawatha</li>
+          <li className="about__list_item">
+            2.{" "}
+            <a
+              href="https://tolkiengateway.net/wiki/The_Hobbit"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              The Hobbit
+            </a>
+          </li>
+          <li className="about__list_item">
+            3.{" "}
+            <a
+              href="https://tolkiengateway.net/wiki/The_Lord_of_the_Rings"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              The Lord of the Rings
+            </a>
+          </li>
+          <li className="about__list_item">
+            4.{" "}
+            <a
+              href="https://www.gutenberg.org/files/10148/10148-h/10148-h.htm"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              The Merry Adventures of Robin Hood
+            </a>
+          </li>
+          <li className="about__list_item">
+            5.{" "}
+            <a
+              href="https://www.gutenberg.org/files/19/19-h/19-h.htm"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              The Song of Hiawatha
+            </a>
+          </li>
         </ul>
       </section>
       <section className="about__section">
@@ -64,11 +112,61 @@ function About() {
           are five natural languages that I find fun studying.
         </p>
         <ul className="about__list">
-          <li className="about__list_item">1. Gothic</li>
-          <li className="about__list_item">2. Latin</li>
-          <li className="about__list_item">3. Spanish</li>
-          <li className="about__list_item">4. French</li>
-          <li className="about__list_item">5. German</li>
+          <li className="about__list_item">
+            1.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Gothic_language"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              Gothic
+            </a>
+          </li>
+          <li className="about__list_item">
+            2.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Latin"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              Latin
+            </a>
+          </li>
+          <li className="about__list_item">
+            3.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Spanish_language"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              Spanish
+            </a>
+          </li>
+          <li className="about__list_item">
+            4.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/French_language"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              French
+            </a>
+          </li>
+          <li className="about__list_item">
+            5.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/German_language"
+              className="about__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              German
+            </a>
+          </li>
         </ul>
       </section>
       <section className="about__section">

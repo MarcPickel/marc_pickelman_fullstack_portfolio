@@ -29,7 +29,16 @@ function SEO() {
           </p>
         </div>
         <div>
-          <h3 className="seo__title">DIY SEO Campaign</h3>
+          <h3 className="seo__title">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1uS5dADisKJY8TZM_6Wey9VjeiDItSMrdn2ksiIPse5w/edit"
+              className="seo__link"
+              target="_blank"
+              title="Take me thither"
+            >
+              DIY SEO Campaign
+            </a>
+          </h3>
           <p className="seo__date">2025 - Present</p>
           <p className="seo__text">
             A campaign to build a product that would help non-SEO experts map
@@ -93,14 +102,6 @@ function SEO() {
           </a>
           ,{" "}
           <a
-            href="https://business.google.com/en-all/ad-tools/keyword-planner/"
-            className="seo__link"
-            target="_blank"
-          >
-            Google Keyword Planner
-          </a>
-          ,{" "}
-          <a
             href="https://trends.google.com/trends/"
             className="seo__link"
             target="_blank"
@@ -111,34 +112,7 @@ function SEO() {
           <a href="https://tinypng.com/" className="seo__link" target="_blank">
             TinyPNG
           </a>
-          ,{" "}
-          <a
-            href="https://www.localfalcon.com/"
-            className="seo__link"
-            target="_blank"
-          >
-            LocalFalcon
-          </a>
-          ,{" "}
-          <a
-            href="https://www.seoptimer.com/backlink-checker/"
-            className="seo__link"
-            target="_blank"
-          >
-            SEOptimer Backlink Checker
-          </a>
-          ,{" "}
-          <a
-            href="https://www.brightlocal.com/"
-            className="seo__link"
-            target="_blank"
-          >
-            BrightLocal
-          </a>
-          ,{" "}
-          <a href="https://moz.com/" className="seo__link" target="_blank">
-            Moz
-          </a>
+          .
         </p>
       </section>
     </div>

@@ -1,17 +1,10 @@
 import "./Header.css";
 
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import quill from "../../assets/black_quill.svg";
 
-function Header() {
-  const [isActive, setIsActive] = useState("");
-
-  const handleClick = (page) => {
-    setIsActive(page);
-  };
-
+function Header({ isActive, handleClick }) {
   return (
     <header className="header">
       <NavLink to="/">

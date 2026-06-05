@@ -1,5 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import Header from "./features/Header/Header.jsx";
 import Main from "./features/Main/Main.jsx";
@@ -11,16 +12,22 @@ import Footer from "./features/Footer/Footer.jsx";
 // import { useState } from "react";
 
 function App() {
+  const [isActive, setIsActive] = useState("");
+
+  const handleClick = (page) => {
+    setIsActive(page);
+  };
+
   return (
     <div className="app">
-      <Header />
+      <Header handleClick={handleClick} isActive={isActive} />
       <Routes>
         <Route path="/" element={<Main />}></Route>
         <Route path="/seo" element={<SEO />}></Route>
         <Route path="/writing" element={<Writing />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
-      <Footer />
+      <Footer handleClick={handleClick} />
     </div>
   );
 }
