@@ -1,4 +1,6 @@
 import "./Bookshelf.css";
+
+import { NavLink } from "react-router-dom";
 import { SmBook, MdBook, LgBook } from "../Books/Books.jsx";
 
 function Bookshelf() {
@@ -6,7 +8,9 @@ function Bookshelf() {
     <div className="bookshelf">
       {/* Books in descending order based on time: newer -> older */}
       <div className="bookshelf__books">
-        <SmBook title="Smpl Psltr" color="green" band="silver" />
+        <NavLink to="/psalter">
+          <SmBook title="Smpl Psltr" color="green" band="silver" />
+        </NavLink>
         <MdBook title="MSFR" color="blue" band="silver" />
         <LgBook title="WTWR" color="gray" band="blue" />
         <SmBook title="Moria" color="purple" band="silver" />

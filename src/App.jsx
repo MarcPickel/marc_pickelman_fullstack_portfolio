@@ -9,6 +9,8 @@ import Writing from "./features/Writing/Writing.jsx";
 import About from "./features/About/About.jsx";
 import Footer from "./features/Footer/Footer.jsx";
 
+import SimplePsalter from "./features/ProjectPages/components/Psalter.jsx";
+
 // import { useState } from "react";
 
 function App() {
@@ -23,6 +25,14 @@ function App() {
       <Header handleClick={handleClick} isActive={isActive} />
       <Routes>
         <Route path="/" element={<Main />}></Route>
+
+        {/* Here begin the Featured Project Pages */}
+        <Route path="/psalter" element={<SimplePsalter />}></Route>
+        <Route></Route>
+        <Route></Route>
+        <Route></Route>
+
+        {/* Here begin the Navigable Pages */}
         <Route path="/seo" element={<SEO />}></Route>
         <Route path="/writing" element={<Writing />}></Route>
         <Route path="/about" element={<About />}></Route>

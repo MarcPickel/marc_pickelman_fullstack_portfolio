@@ -1,0 +1,76 @@
+@font-face {
+  src: url(../../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+}
+@font-face {
+  src: url(../../vendor/fonts/Monomakh-Regular.ttf);
+  font-family: "Monomakh";
+}
+@font-face {
+  src: url(../../vendor/fonts/UnifrakturMaguntia-Regular.ttf);
+  font-family: "Unifraktur";
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.project__container {
+  width: 600px;
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  text-align: center;
+}
+
+.project__image {
+  width: 200px;
+}
+
+.project__title {
+  font-family: "Monomakh", "Times New Roman", serif;
+}
+
+.project__description {
+  margin: 0 0 40px;
+  font-style: italic;
+}
+
+.project__section {
+  width: 600px;
+  display: block;
+}
+
+.project__initial {
+  font-family: "Unifraktur", "Times New Roman", serif;
+  font-size: 50px;
+  float: left;
+}
+
+.project__text {
+  margin: 0 0 20px;
+}
+
+.project__link {
+  color: #375ace;
+}
+
+.project__link:hover {
+  opacity: 0.6;
+}
+
+.project__button {
+  padding: 4px 10px;
+  background: transparent;
+  border: solid 1px #375ace;
+  border-radius: 8px;
+  color: #375ace;
+}
+
+.project__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
