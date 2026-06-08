@@ -1,5 +1,7 @@
 import ProjectPage from "../ProjectPage.jsx";
+
 import logo from "../../../assets/msfr__logo_big.svg";
+import image from "../../../assets/msfr-example.jpg";
 
 function MSFR() {
   return (
@@ -15,6 +17,9 @@ function MSFR() {
         technological advances in printing and online shopping. And yet, in an
         age of abundant literature, few men actually read.
       </p>
+      <div className="project__image-container">
+        <img className="project__image" src={image} />
+      </div>
       <p className="project__text">
         Tyler Supalla, along with several other fellows who were all seriously
         reading and discussing good books, felt that something was missing,

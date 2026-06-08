@@ -13,7 +13,7 @@ function ProjectPage({ name, image, title, description, children }) {
   return (
     <div className={`project project_${name}`}>
       <div className="project__container">
-        <img className="project__image" src={image} />
+        <img className="project__logo" src={image} />
         <h1 className="project__title">{title}</h1>
         <p className="project__description">{description}</p>
       </div>

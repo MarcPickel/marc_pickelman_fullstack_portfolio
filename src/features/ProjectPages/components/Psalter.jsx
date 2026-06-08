@@ -1,5 +1,7 @@
 import ProjectPage from "../ProjectPage.jsx";
+
 import logo from "../../../assets/simple_psalter_logo.png";
+import image from "../../../assets/simple-psalter-example.jpg";
 
 function SimplePsalter() {
   return (
@@ -15,6 +17,9 @@ function SimplePsalter() {
         at meal, he would have orators read to him beautiful literature,
         especially the psalms.
       </p>
+      <div className="project__image-container">
+        <img className="project__image" src={image} />
+      </div>
       <p className="project__text">
         Inspired by this little known tale, I strove to make a simple
         application wherein a user could randomly generate one of the one

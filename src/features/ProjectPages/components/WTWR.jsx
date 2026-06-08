@@ -1,5 +1,7 @@
 import ProjectPage from "../ProjectPage.jsx";
+
 import logo from "../../../assets/wtwr-logo.svg";
+import image from "../../../assets/wtwr-example.jpg";
 
 function WTWR() {
   return (
@@ -15,6 +17,9 @@ function WTWR() {
         Google Cloud, this app suggests clothing options to the user based on
         the local weather.
       </p>
+      <div className="project__image-container">
+        <img className="project__image" src={image} />
+      </div>
       <p className="project__text">
         The app is also complete with testing, using Jest, and registration and
         login functionality, as well as the option to edit your profile avatar
