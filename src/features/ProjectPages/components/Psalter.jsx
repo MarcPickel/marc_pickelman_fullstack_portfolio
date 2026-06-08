@@ -47,6 +47,18 @@ function SimplePsalter() {
         </a>{" "}
         to view his YouTube channel.
       </p>
+      <p className="project__text">
+        Click{" "}
+        <a
+          href="https://marcpickel.github.io/simple_psalter_app/"
+          className="project__link"
+          target="_blank"
+          title="Take me thither"
+        >
+          here
+        </a>{" "}
+        to visit the app.
+      </p>
     </ProjectPage>
   );
 }

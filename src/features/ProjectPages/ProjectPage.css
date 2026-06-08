@@ -54,6 +54,10 @@
   margin: 0 0 20px;
 }
 
+.project__text_italic {
+  font-style: italic;
+}
+
 .project__link {
   color: #375ace;
 }
