@@ -76,6 +76,12 @@ function Writing() {
       <section className="writing__section writing__section_auth">
         <h2 className="writing__header_two">Authors and Poets:</h2>
         <p className="writing__text">
+          {/*
+
+* Here, add inconspicuous "author/poet name", more like a title that doesn't fit
+that is secretly a link to a riddle.
+
+*/}
           <a
             href="https://en.wikipedia.org/wiki/Aesop"
             className="writing__link"
@@ -99,7 +105,7 @@ function Writing() {
           >
             Anthony Esolen
           </a>
-          ,{" "}
+          , <a className="writing__link">Bilbo Baggins</a>,{" "}
           <a
             href="https://en.wikipedia.org/wiki/Brothers_Grimm"
             className="writing__link"

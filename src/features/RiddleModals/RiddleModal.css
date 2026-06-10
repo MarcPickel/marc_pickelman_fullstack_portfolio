@@ -1,0 +1,33 @@
+.modal {
+  background-color: black;
+  opacity: 0.4;
+}
+
+.modal__container {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+.modal_open {
+  visibility: visible;
+}
+
+.modal__close-button {
+}
+
+.modal__title {
+}
+
+.modal__form {
+}
+
+.modal__input {
+}
+
+.modal__text {
+}
+
+.modal__submit-button {
+}

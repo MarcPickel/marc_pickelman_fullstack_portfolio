@@ -17,7 +17,7 @@ function Bookshelf({ handleTopScroll }) {
         <NavLink to="/wtwr" onClick={handleTopScroll}>
           <LgBook title="WTWR" color="gray" band="blue" />
         </NavLink>
-        <SmBook title="Moria" color="purple" band="silver" />
+        <SmBook title="Lachen" color="purple" band="silver" />
         <NavLink to="/spots" onClick={handleTopScroll}>
           <MdBook title="Spots" color="yellow" band="blue" />
         </NavLink>

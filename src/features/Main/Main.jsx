@@ -6,7 +6,7 @@ import Story from "./components/Story/Story.jsx";
 import { NavLink } from "react-router-dom";
 import { useRef } from "react";
 
-function Main({ handleTopScroll }) {
+function Main({ handleClick, handleTopScroll }) {
   const featRef = useRef(null);
   const storyRef = useRef(null);
 
@@ -44,11 +44,27 @@ function Main({ handleTopScroll }) {
           </button>
           ,{" "}
           <NavLink to="/seo">
-            <span className="main__link">find</span>
+            <span
+              className="main__link"
+              onClick={() => {
+                handleClick("seo");
+                handleTopScroll();
+              }}
+            >
+              find
+            </span>
           </NavLink>
           , and{" "}
           <NavLink to="/writing">
-            <span className="main__link">fill</span>
+            <span
+              className="main__link"
+              onClick={() => {
+                handleClick("writing");
+                handleTopScroll();
+              }}
+            >
+              fill
+            </span>
           </NavLink>{" "}
           digital spaces.
         </p>

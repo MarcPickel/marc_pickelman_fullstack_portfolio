@@ -31,23 +31,25 @@ function SEO() {
         <div>
           <h3 className="seo__title">
             <a
-              href="https://docs.google.com/spreadsheets/d/1uS5dADisKJY8TZM_6Wey9VjeiDItSMrdn2ksiIPse5w/edit"
+              href=""
               className="seo__link"
               target="_blank"
               title="Take me thither"
             >
-              DIY SEO Campaign
+              St. Ives, Cornwall SEO Campaign
             </a>
           </h3>
-          <p className="seo__date">2025 - Present</p>
+          <p className="seo__date">1730 - Present</p>
           <p className="seo__text">
-            A campaign to build a product that would help non-SEO experts map
-            out keyword and link strategies in externally sourced posts to
-            improve search results for their website. It would allow experts in
-            particular fields to write knowledgeable and experienced content
-            online while getting guidance in search engine optimization, instead
-            of an expert in SEO writing content about something he has no
-            experience in.
+            A small campaign that serves but one part of an integral whole,
+            meant for the purpose of meeting a twofold satisfaction, both for
+            the user and the programmer. Incidentally, this clever strategy of
+            utilizing a larger body of context beside a significantly individual
+            keyword to suggest but not explicitly define a link between the two
+            parts proves effective at producing confusion in the problem solver.
+            It is, at any rate, destinctive in its ability to convey a false
+            link whilst maintaining the power and importance of remaining
+            consistent with keywords.
           </p>
         </div>
         <div>

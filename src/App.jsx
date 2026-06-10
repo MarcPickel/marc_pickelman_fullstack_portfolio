@@ -36,7 +36,9 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Main handleTopScroll={handleTopScroll} />}
+          element={
+            <Main handleClick={handleClick} handleTopScroll={handleTopScroll} />
+          }
         ></Route>
 
         {/* Here begin the Featured Project Pages */}
