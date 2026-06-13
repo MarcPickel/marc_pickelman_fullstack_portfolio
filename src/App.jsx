@@ -17,10 +17,15 @@ import Spots from "./features/ProjectPages/components/Spots.jsx";
 // import { useState } from "react";
 
 function App() {
-  const [isActive, setIsActive] = useState("");
+  const [activeTab, setActiveTab] = useState("");
+  const [activeModal, setActiveModal] = useState("");
+
+  const onClose = () => {
+    setActiveModal("");
+  };
 
   const handleClick = (page) => {
-    setIsActive(page);
+    setActiveTab(page);
   };
 
   const handleTopScroll = () => {
@@ -32,7 +37,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header handleClick={handleClick} isActive={isActive} />
+      <Header handleClick={handleClick} activeTab={activeTab} />
       <Routes>
         <Route
           path="/"
@@ -53,6 +58,27 @@ function App() {
         <Route path="/about" element={<About />}></Route>
       </Routes>
       <Footer handleClick={handleClick} handleTopScroll={handleTopScroll} />
+
+      <RiddleOne
+        isOpen={activeModal === "riddle-one"}
+        onClose={onClose}
+      ></RiddleOne>
+      <RiddleTwo
+        isOpen={activeModal === "riddle-two"}
+        onClose={onClose}
+      ></RiddleTwo>
+      <RiddleThree
+        isOpen={activeModal === "riddle-three"}
+        onClose={onClose}
+      ></RiddleThree>
+      <RiddleFour
+        isOpen={activeModal === "riddle-four"}
+        onClose={onClose}
+      ></RiddleFour>
+      <RiddleFive
+        isOpen={activeModal === "riddle-five"}
+        onClose={onClose}
+      ></RiddleFive>
     </div>
   );
 }

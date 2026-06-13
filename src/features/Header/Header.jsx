@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 import quill from "../../assets/black_quill.svg";
 
-function Header({ isActive, handleClick }) {
+function Header({ activeTab, handleClick }) {
   return (
     <header className="header">
       <NavLink to="/">
@@ -23,7 +23,7 @@ function Header({ isActive, handleClick }) {
             onClick={() => {
               handleClick("seo");
             }}
-            className={`header__nav-button header__nav-button_${isActive === "seo" ? "active" : ""}`}
+            className={`header__nav-button header__nav-button_${activeTab === "seo" ? "active" : ""}`}
             type="button"
           >
             SEO
@@ -34,7 +34,7 @@ function Header({ isActive, handleClick }) {
             onClick={() => {
               handleClick("writing");
             }}
-            className={`header__nav-button header__nav-button_${isActive === "writing" ? "active" : ""}`}
+            className={`header__nav-button header__nav-button_${activeTab === "writing" ? "active" : ""}`}
             type="button"
           >
             Writing
@@ -45,7 +45,7 @@ function Header({ isActive, handleClick }) {
             onClick={() => {
               handleClick("about");
             }}
-            className={`header__nav-button header__nav-button_${isActive === "about" ? "active" : ""}`}
+            className={`header__nav-button header__nav-button_${activeTab === "about" ? "active" : ""}`}
             type="button"
           >
             About
