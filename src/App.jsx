@@ -14,6 +14,12 @@ import MSFR from "./features/ProjectPages/components/MSFR.jsx";
 import WTWR from "./features/ProjectPages/components/WTWR.jsx";
 import Spots from "./features/ProjectPages/components/Spots.jsx";
 
+import RiddleOne from "./features/RiddleModals/riddles/RiddleOne.jsx";
+import RiddleTwo from "./features/RiddleModals/riddles/RiddleTwo.jsx";
+import RiddleThree from "./features/RiddleModals/riddles/RiddleThree.jsx";
+import RiddleFour from "./features/RiddleModals/riddles/RiddleFour.jsx";
+import RiddleFive from "./features/RiddleModals/riddles/RiddleFive.jsx";
+
 // import { useState } from "react";
 
 function App() {
@@ -35,9 +41,29 @@ function App() {
     });
   };
 
+  const onRiddleOneClick = () => {
+    setActiveModal("riddle-one");
+  };
+  const onRiddleTwoClick = () => {
+    setActiveModal("riddle-two");
+  };
+  const onRiddleThreeClick = () => {
+    setActiveModal("riddle-three");
+  };
+  const onRiddleFourClick = () => {
+    setActiveModal("riddle-four");
+  };
+  const onRiddleFiveClick = () => {
+    setActiveModal("riddle-five");
+  };
+
   return (
     <div className="app">
-      <Header handleClick={handleClick} activeTab={activeTab} />
+      <Header
+        handleClick={handleClick}
+        activeTab={activeTab}
+        onRiddleClick={onRiddleOneClick}
+      />
       <Routes>
         <Route
           path="/"
@@ -53,32 +79,30 @@ function App() {
         <Route path="/spots" element={<Spots />}></Route>
 
         {/* Here begin the Navigable Pages */}
-        <Route path="/seo" element={<SEO />}></Route>
-        <Route path="/writing" element={<Writing />}></Route>
-        <Route path="/about" element={<About />}></Route>
+        <Route
+          path="/seo"
+          element={<SEO onRiddleClick={onRiddleThreeClick} />}
+        ></Route>
+        <Route
+          path="/writing"
+          element={<Writing onRiddleClick={onRiddleFourClick} />}
+        ></Route>
+        <Route
+          path="/about"
+          element={<About onRiddleClick={onRiddleFiveClick} />}
+        ></Route>
       </Routes>
-      <Footer handleClick={handleClick} handleTopScroll={handleTopScroll} />
+      <Footer
+        handleClick={handleClick}
+        handleTopScroll={handleTopScroll}
+        onRiddleClick={onRiddleTwoClick}
+      />
 
-      <RiddleOne
-        isOpen={activeModal === "riddle-one"}
-        onClose={onClose}
-      ></RiddleOne>
-      <RiddleTwo
-        isOpen={activeModal === "riddle-two"}
-        onClose={onClose}
-      ></RiddleTwo>
-      <RiddleThree
-        isOpen={activeModal === "riddle-three"}
-        onClose={onClose}
-      ></RiddleThree>
-      <RiddleFour
-        isOpen={activeModal === "riddle-four"}
-        onClose={onClose}
-      ></RiddleFour>
-      <RiddleFive
-        isOpen={activeModal === "riddle-five"}
-        onClose={onClose}
-      ></RiddleFive>
+      <RiddleOne isOpen={activeModal === "riddle-one"} onClose={onClose} />
+      <RiddleTwo isOpen={activeModal === "riddle-two"} onClose={onClose} />
+      <RiddleThree isOpen={activeModal === "riddle-three"} onClose={onClose} />
+      <RiddleFour isOpen={activeModal === "riddle-four"} onClose={onClose} />
+      <RiddleFive isOpen={activeModal === "riddle-five"} onClose={onClose} />
     </div>
   );
 }

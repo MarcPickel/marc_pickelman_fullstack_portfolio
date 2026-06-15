@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 import quill from "../../assets/black_quill.svg";
 
-function Header({ activeTab, handleClick }) {
+function Header({ activeTab, handleClick, onRiddleClick }) {
   return (
     <header className="header">
       <NavLink to="/">
@@ -52,7 +52,7 @@ function Header({ activeTab, handleClick }) {
           </button>
         </NavLink>
         <NavLink>
-          <img src={quill} className="header__icon" />
+          <img src={quill} className="header__icon" onClick={onRiddleClick} />
         </NavLink>
       </nav>
     </header>
