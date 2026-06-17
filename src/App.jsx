@@ -19,8 +19,7 @@ import RiddleTwo from "./features/RiddleModals/riddles/RiddleTwo.jsx";
 import RiddleThree from "./features/RiddleModals/riddles/RiddleThree.jsx";
 import RiddleFour from "./features/RiddleModals/riddles/RiddleFour.jsx";
 import RiddleFive from "./features/RiddleModals/riddles/RiddleFive.jsx";
-
-// import { useState } from "react";
+import RiddleSix from "./features/RiddleModals/riddles/RiddleSix.jsx";
 
 function App() {
   const [activeTab, setActiveTab] = useState("");
@@ -56,6 +55,9 @@ function App() {
   const onRiddleFiveClick = () => {
     setActiveModal("riddle-five");
   };
+  const onRiddleSixClick = () => {
+    setActiveModal("riddle-six");
+  };
 
   return (
     <div className="app">
@@ -68,7 +70,11 @@ function App() {
         <Route
           path="/"
           element={
-            <Main handleClick={handleClick} handleTopScroll={handleTopScroll} />
+            <Main
+              handleClick={handleClick}
+              handleTopScroll={handleTopScroll}
+              onRiddleClick={onRiddleSixClick}
+            />
           }
         ></Route>
 
@@ -103,6 +109,7 @@ function App() {
       <RiddleThree isOpen={activeModal === "riddle-three"} onClose={onClose} />
       <RiddleFour isOpen={activeModal === "riddle-four"} onClose={onClose} />
       <RiddleFive isOpen={activeModal === "riddle-five"} onClose={onClose} />
+      <RiddleSix isOpen={activeModal === "riddle-six"} onClose={onClose} />
     </div>
   );
 }

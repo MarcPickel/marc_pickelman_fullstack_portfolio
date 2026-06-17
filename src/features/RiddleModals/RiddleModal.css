@@ -71,12 +71,31 @@
   width: 200px;
 }
 
-.modal__form {
-}
-
 .modal__input {
   margin: 0;
   width: 300px;
+}
+
+.modal__input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__input_otp {
+  width: 40px;
+  border: none;
+  border: 3px solid #dedede;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffc916;
+  background-color: #474747;
+}
+
+.modal__input:focus {
+  border: 3px solid #ffc916;
+  outline: none;
 }
 
 .modal__text {
@@ -127,4 +146,14 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.modal__link {
+  color: #ffc916;
+  font-size: 20px;
+}
+
+.modal__link:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }

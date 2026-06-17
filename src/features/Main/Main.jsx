@@ -6,7 +6,7 @@ import Story from "./components/Story/Story.jsx";
 import { NavLink } from "react-router-dom";
 import { useRef } from "react";
 
-function Main({ handleClick, handleTopScroll }) {
+function Main({ handleClick, handleTopScroll, onRiddleClick }) {
   const featRef = useRef(null);
   const storyRef = useRef(null);
 
@@ -76,7 +76,10 @@ function Main({ handleClick, handleTopScroll }) {
         >
           Featured Projects
         </h2>
-        <Bookshelf handleTopScroll={handleTopScroll} />
+        <Bookshelf
+          handleTopScroll={handleTopScroll}
+          onRiddleClick={onRiddleClick}
+        />
         <div className="main__featured-container">
           <button
             type="button"

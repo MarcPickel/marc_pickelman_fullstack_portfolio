@@ -3,7 +3,7 @@ import "./Bookshelf.css";
 import { NavLink } from "react-router-dom";
 import { SmBook, MdBook, LgBook } from "../Books/Books.jsx";
 
-function Bookshelf({ handleTopScroll }) {
+function Bookshelf({ handleTopScroll, onRiddleClick }) {
   return (
     <div className="bookshelf">
       {/* Books in descending order based on time: newer -> older */}
@@ -17,7 +17,9 @@ function Bookshelf({ handleTopScroll }) {
         <NavLink to="/wtwr" onClick={handleTopScroll}>
           <LgBook title="WTWR" color="gray" band="blue" />
         </NavLink>
-        <SmBook title="Lachen" color="purple" band="silver" />
+        <NavLink onClick={onRiddleClick}>
+          <SmBook title="Gelachter" color="purple" band="silver" />
+        </NavLink>
         <NavLink to="/spots" onClick={handleTopScroll}>
           <MdBook title="Spots" color="yellow" band="blue" />
         </NavLink>
