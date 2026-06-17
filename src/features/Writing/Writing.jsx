@@ -2,7 +2,7 @@ import "./Writing.css";
 
 import { NavLink } from "react-router-dom";
 
-function Writing() {
+function Writing({ onRiddleClick }) {
   return (
     <div className="writing">
       <div className="writing__section writing__section_intro">
@@ -105,7 +105,11 @@ that is secretly a link to a riddle.
           >
             Anthony Esolen
           </a>
-          , <a className="writing__link">Bilbo Baggins</a>,{" "}
+          ,{" "}
+          <a className="writing__link" onClick={onRiddleClick}>
+            Bilbo Baggins
+          </a>
+          ,{" "}
           <a
             href="https://en.wikipedia.org/wiki/Brothers_Grimm"
             className="writing__link"

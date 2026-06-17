@@ -2,7 +2,7 @@ import "./SEO.css";
 
 import { NavLink } from "react-router-dom";
 
-function SEO() {
+function SEO({ onRiddleClick }) {
   return (
     <div className="seo">
       <div className="seo__section seo__section_intro">
@@ -31,9 +31,8 @@ function SEO() {
         <div>
           <h3 className="seo__title">
             <a
-              href=""
+              onClick={onRiddleClick}
               className="seo__link"
-              target="_blank"
               title="Take me thither"
             >
               St. Ives, Cornwall SEO Campaign

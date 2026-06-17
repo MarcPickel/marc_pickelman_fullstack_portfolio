@@ -39,10 +39,6 @@
   border-radius: 8px;
 }
 
-.modal_visible {
-  visibility: visible;
-}
-
 .modal__close-button {
   position: absolute;
   top: 4px;
@@ -67,8 +63,12 @@
   margin: 0 0 20px;
   font-family: "Monomakh", "Times New Roman", serif;
   /*color: #ffde23;*/
-  color: #dedede;
+  color: #ffc916;
   font-size: 32px;
+}
+
+.modal__image {
+  width: 200px;
 }
 
 .modal__form {
@@ -85,12 +85,26 @@
   color: #dedede;
 }
 
+.modal__answer {
+  margin: 0;
+  font-size: 20px;
+  color: #dedede;
+}
+
+.modal__answer_clue {
+  padding: 2px 6px;
+  font-size: 16px;
+  color: #ffc916;
+  border: 1px solid #ffc916;
+  border-radius: 4px;
+}
+
 .modal__text_italic {
   font-style: italic;
 }
 
 .modal__content {
-  margin: 40px auto;
+  margin: 30px 0;
   width: 400px;
 }
 
@@ -106,4 +120,11 @@
   background: #acacac;
   border: solid 2px #8b8b8b;
   cursor: pointer;
+}
+
+.modal__submission {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

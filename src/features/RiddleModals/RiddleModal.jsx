@@ -4,28 +4,23 @@ import { useState, useEffect } from "react";
 
 import close from "../../assets/close-icon.svg";
 
-function RiddleModal({ name, title, children, isOpen, onClose }) {
-  const [answer, setAnswer] = useState("");
+function RiddleModal({
+  name,
+  title,
+  children,
+  isOpen,
+  onClose,
+  onYes,
+  onNo,
+  isCorrect,
+  clue,
+}) {
   const [submitted, setSubmitted] = useState(false);
-
-  const answerOne = "Man";
-  const answerTwo = "Mellon";
-  const answerThree = "One";
-  const answerFour = "Dark";
-  const answerFive = "Lead";
-
-  const clueOne = "L";
-  const clueTwo = "A";
-  const clueThree = "U";
-  const clueFour = "G";
-  const clueFive = "H";
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
   };
-
-  const isCorrect = answer.toLowerCase() === answerOne.toLowerCase();
 
   useEffect(() => {
     if (!isOpen || !onClose) {
@@ -35,6 +30,7 @@ function RiddleModal({ name, title, children, isOpen, onClose }) {
     const handleEscape = (e) => {
       if (e.key === "Escape" && onClose) {
         onClose();
+        setSubmitted(false);
       }
     };
 
@@ -47,6 +43,7 @@ function RiddleModal({ name, title, children, isOpen, onClose }) {
   const handleOverlay = (e) => {
     if (e.target === e.currentTarget && onClose) {
       onClose();
+      setSubmitted(false);
     }
   };
 
@@ -62,16 +59,17 @@ function RiddleModal({ name, title, children, isOpen, onClose }) {
         <p className="modal__title">{title}</p>
         <form className="modal__form" name={`${name}`} onSubmit={handleSubmit}>
           {children}
-          <button
-            className="modal__submit-button"
-            type="submit"
-            disabled={!isCorrect}
-          >
-            Attempt
-          </button>
-          {submitted && (
-            <p>{isCorrect ? "You may pass" : "The sphinx leaps at you."}</p>
-          )}
+          <div className="modal__submission">
+            <button className="modal__submit-button" type="submit">
+              Attempt
+            </button>
+            {submitted && (
+              <p className="modal__answer">{isCorrect ? onYes : onNo}</p>
+            )}
+            {submitted && isCorrect && (
+              <p className="modal__answer modal__answer_clue">{clue}</p>
+            )}
+          </div>
         </form>
       </div>
     </div>

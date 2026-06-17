@@ -2,7 +2,7 @@ import "./Footer.css";
 
 import { NavLink } from "react-router-dom";
 
-function Footer({ handleClick }) {
+function Footer({ handleClick, onRiddleClick }) {
   const handleTopScroll = () => {
     window.scrollTo({
       top: 0,
@@ -53,7 +53,9 @@ function Footer({ handleClick }) {
           </p>
         </NavLink>
         <NavLink to="">
-          <p className="footer__link">Moria</p>
+          <p className="footer__link" onClick={onRiddleClick}>
+            Moria
+          </p>
         </NavLink>
         <NavLink to="/about">
           <p

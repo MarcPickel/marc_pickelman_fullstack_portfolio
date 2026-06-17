@@ -2,13 +2,13 @@ import "./About.css";
 
 import profile from "../../assets/marc-pickelman.jpg";
 
-function About() {
+function About({ onRiddleClick }) {
   return (
     <div className="about">
       <h1 className="about__header">About</h1>
       <section className="about__section about__section_intro">
         <div className="about__container">
-          <img className="about__image" src={profile} />
+          <img className="about__image" src={profile} onClick={onRiddleClick} />
           <div className="about__content">
             <p className="about__text about__text_intro">
               I'm Marc Pickelman, a Full-Stack Software Engineer who hails from
@@ -180,9 +180,9 @@ function About() {
         <h2 className="about__title">Catholic Faith</h2>
         <p className="about__text">
           But to He who remains, as St. Thomas Aquinas writes, "
-          <span class="about__text_italic">latens deitas</span>," I owe my life,
-          my everything, my all. For God, who established the firmament, even
-          the firmament of the digital world, do I do all things{" "}
+          <span className="about__text_italic">latens deitas</span>," I owe my
+          life, my everything, my all. For God, who established the firmament,
+          even the firmament of the digital world, do I do all things{" "}
           <span className="about__text_italic">ad majorem Dei gloriam</span>.
         </p>
       </section>
