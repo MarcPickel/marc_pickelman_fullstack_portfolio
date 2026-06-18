@@ -73,11 +73,11 @@ function RiddleSix({ isOpen, onClose }) {
       </p>
       <p className="modal__text">
         It seems to go on, and on, and on. You begin to wonder if there is even
-        an end to it. Suddenly, you spy a gold light emanating from what must be
+        an end to it. Suddenly, you spy a soft light emanating from what must be
         the end of the passageway.
       </p>
       <p className="modal__text">
-        You come to a gold, illuminated inscription on the wall, beside which
+        You come to an amber, illuminated inscription on the wall, beside which
         stands a heavy, oak door. You notice the inscription is incomplete with
         five empty slots where you think runes might fit. The inscription reads
         thus:
