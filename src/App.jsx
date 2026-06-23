@@ -9,6 +9,8 @@ import Writing from "./features/Writing/Writing.jsx";
 import About from "./features/About/About.jsx";
 import Footer from "./features/Footer/Footer.jsx";
 
+import SecretPage from "./features/Secret/SecretPage.jsx";
+
 import SimplePsalter from "./features/ProjectPages/components/Psalter.jsx";
 import MSFR from "./features/ProjectPages/components/MSFR.jsx";
 import WTWR from "./features/ProjectPages/components/WTWR.jsx";
@@ -83,6 +85,8 @@ function App() {
         <Route path="/msfr" element={<MSFR />}></Route>
         <Route path="/wtwr" element={<WTWR />}></Route>
         <Route path="/spots" element={<Spots />}></Route>
+
+        <Route path="/secret" element={<SecretPage />}></Route>
 
         {/* Here begin the Navigable Pages */}
         <Route

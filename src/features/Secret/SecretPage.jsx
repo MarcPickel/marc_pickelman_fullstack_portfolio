@@ -31,19 +31,19 @@ function SecretPage() {
           Ole gives him a sidelong look and says, "Now, why's dat, Sven?"
         </p>
         <p className="secret__text">
-          "Well, dee odder day, while I was out walking da block, I went by your
-          house and saw you and Lena... getting it on! So, I tought, for your
+          "Well, dee odder day, while I was out walkin' da block, I went by your
+          house and saw you and Lena... gettin' it on! So, I tought, for your
           sake, Lena's sake, my sake, and all da neighbors' sakes dat you should
           get some curtains so we don't see you doing dat anymore."
         </p>
         <p className="secret__text">
           At this point, Ole busts out laughing and says, "Ha! Joke's on you,
-          Sven. I wasn't even home last night!"
+          Sven. I wasn't even home last night!"*
         </p>
         {/* This is just context at the end of the joke. */}
         <p className="secret__text secret__text_italic">
-          Ole, Lena, and Sven jokes are popular in the Midwest, more so it seems
-          in Minnesota and the Dakotas amongst the Swedes.
+          *Ole, Lena, and Sven jokes are popular in the Midwest, more so it
+          seems in Minnesota and the Dakotas amongst the Swedes.
         </p>
       </section>
       {/* Joke No. 2 */}
@@ -67,16 +67,16 @@ function SecretPage() {
         </p>
         <p className="secret__text">
           Then, Toivo says, "Now, while you're rollin' him in, I'll say da
-          words. On da counta three, Eino... one, two, three."
+          words. On da counta tree, Eino... one, two, tree!"
         </p>
         <p className="secret__text">Eino rolls their friend in the hole.</p>
         <p className="secret__text">
           Toivo recites the words quickly, "In da name of da father, and da son,
-          and in da hole he goes!"
+          and in da hole he goes!"*
         </p>
         {/* This is just context at the end of the joke. */}
         <p className="secret__text secret__text_italic">
-          Toivo and Eino jokes are popular in the Midwest, more so in the Upper
+          *Toivo and Eino jokes are popular in the Midwest, more so in the Upper
           Penninsula of Michigan, Northern Wisconsin, and Northern Minnesota
           amongst the Finns.
         </p>
@@ -96,7 +96,7 @@ function SecretPage() {
           As he was going along, a root sprang up from the ground and tripped
           him. The gun flew out of his hands and fell down aways, right by a
           big, ol', panting black bear. The famished bear, seeing the fallen
-          gun, gazed up and saw the bear hunter and began to chase after him.
+          gun, gazed up, saw the bear hunter, and began to chase after him.
         </p>
         <p className="secret__text">
           Now, the bear hunter was fast on his feet and knew the woods well. But
@@ -121,104 +121,105 @@ function SecretPage() {
           prayer was answered!"
         </p>
         <p className="secret__text">
-          Then he quieted down and listened to the bear's prayer:
+          Then he quieted down and listened to the content of the bear's prayer:
         </p>
         <p className="secret__text">
           "Bless us, O Lord, and these Thy gifts, which we are about to receive,
-          from Thy bounty..."
+          from Thy bounty..."*
         </p>
         {/* This is just context at the end of the joke. */}
         <p className="secret__text secret__text_italic">
-          Depending on your Christian audience, you can really personalize this
-          joke towards the end. As an example, if your audience is Lutheran, you
-          could replace "Catholic" with "Christian" and the prayer before meals
-          with "Come, Lord Jesus, be our guest, and let these gifts to us be
-          blessed. Amen."
+          *Depending on your Christian audience, you can really personalize this
+          joke toward the end. As an example, if your audience is Lutheran, you
+          could replace "Catholic" with "Lutheran" or "Christian" and the prayer
+          before meals with "Come, Lord Jesus, be our guest, and let these gifts
+          to us be blest. Amen."
         </p>
       </section>
       {/* Joke No. 4 */}
       <section className="secret__section">
         <h2 className="secret__title">The Poor Man Seeks Church Work</h2>
+
+        <p className="secret__text">
+          There was once a poor old man out of a job and looking for work.
+        </p>
+        <p className="secret__text">
+          One day, he came to the church and, seeing that Mass was over,
+          approached the Priest who was standing by the church doors parting
+          with the parishioners.
+        </p>
+        <p className="secret__text">
+          The old man said to him, "Father, do you have any work for me? I'm
+          down right destitute."
+        </p>
+        <p className="secret__text">
+          The Priest at first felt uninclined to help the poor old man, but
+          seeing his worn and wizened face and the somber expression he wore on
+          it, he consented.
+        </p>
+        <p className="secret__text">
+          "Well," said the Priest, "we do need a new sexton, or, someone to ring
+          the bell before Mass. I'll pay you for your little work and give you a
+          meal too."
+        </p>
+        <p className="secret__text">
+          The old man was so grateful he clapped his hands and, smiling, said,
+          "Oh, thank you, Father! I can't wait to start."
+        </p>
+        <p className="secret__text">
+          So the Priest took him up to the top of the bell tower to "show him
+          the ropes." He pointed at a large, wooden mallet leaning against the
+          wall and told the old man to use it to ring the bell.
+        </p>
+        <p className="secret__text">
+          But the old man stared blankly at the mallet and said, "Let me try
+          something, Father."
+        </p>
+        <p className="secret__text">
+          So, the old man steps back, gets into a running position, then bolts
+          right at the bell hanging in the middle of the room over a gaping
+          hole. The old man hits the bell hard with his face, and it rings
+          beautifully through the church and all the neighborhood. The old man
+          lifted his bruised face from the bell smiling ear to ear.
+        </p>
+        <p className="secret__text">
+          The Priest was horrified and wanted to say something, but seeing that
+          the old man was so happy, he convinced himself to bite his tongue.
+        </p>
+        <p className="secret__text">
+          "Alright. Next Sunday, we have Mass at 9 and 11 o'clock in the
+          morning. Obviously, you ring the bell as many times as is the hour."
+        </p>
+        <p className="secret__text">
+          Next Sunday rolled around. The Priest, being anxious at first for the
+          old man, heard the bell ring nine times for the 9 o'clock Mass and
+          felt relieved. He said to himself, "Maybe this was the right choice."
+        </p>
+        <p className="secret__text">
+          When it was time for the 11 o'clock Mass, the bell began to ring. But
+          at the tenth chime, it stopped.
+        </p>
+        <p className="secret__text">
+          The Priest's anxieties were renewed, but all the congregation had come
+          in and already filled the pews and the Mass needed to go on. So, the
+          Priest went on as usual but with the poor old man in the back of his
+          mind.
+        </p>
+        <p className="secret__text">
+          After Mass, the Priest began to make his way toward the front of the
+          church and saw a crowd of people gathered around the foot of the bell
+          tower. He pushed his way through to have a look. There on the stone
+          floor was the broken body of the poor old man.
+        </p>
+        <p className="secret__text">
+          One of the women, saddened by the misfortune, looked mournfully at the
+          Priest and said, "Father, did you know this man?
+        </p>
+        <p className="secret__text">
+          Then the Priest said, "I didn't know his name, but his face rings a
+          bell."
+        </p>
       </section>
-      <p className="secret__text">
-        There was once a poor old man out of a job and looking for work.
-      </p>
-      <p className="secret__text">
-        One day, he came to the church and, seeing that Mass was over,
-        approached the Priest who was standing by the church doors parting with
-        the parishioners.
-      </p>
-      <p className="secret__text">
-        The old man said to him, "Father, do you have any work for me? I'm down
-        right destitute."
-      </p>
-      <p className="secret__text">
-        The Priest at first felt uninclined to help the poor old man, but seeing
-        his worn and wizened face and the somber expression he wore on it, he
-        consented.
-      </p>
-      <p className="secret__text">
-        "Well," said the Priest, "we do need a new sexton, or, someone to ring
-        the bell before Mass. I'll pay you for your little work and give you a
-        meal too."
-      </p>
-      <p className="secret__text">
-        The old man was so grateful he clapped his hands and, smiling, said,
-        "Oh, thank you, Father! I can't wait to start."
-      </p>
-      <p className="secret__text">
-        So the Priest took him up to the top of the bell tower to show him the
-        ropes. He pointed at a large, wooden mallet leaning against the wall and
-        told the old man to use it to ring the bell.
-      </p>
-      <p className="secret__text">
-        But the old man stared blankly at the mallet and said, "Let me try
-        something, Father."
-      </p>
-      <p className="secret__text">
-        So, the old man steps back, gets into a running position, then bolts
-        right at the bell hanging in the middle of the room over a gaping hole.
-        The old man hits the bell hard with his face, and it rings beautifully
-        through the church and all the neighborhood. The old man lifted his
-        bruised face from the bell smiling ear to ear.
-      </p>
-      <p className="secret__text">
-        The Priest was horrified and wanted to say something, but seeing that
-        the old man was so happy, he convinced himself to bite his tongue.
-      </p>
-      <p className="secret__text">
-        "Alright. Next Sunday, we have Mass at 9 and 11 o'clock in the morning.
-        Obviously, you ring the bell as many times as is the hour."
-      </p>
-      <p className="secret__text">
-        Next Sunday rolled around. The Priest, being anxious at first for the
-        old man, heard the bell ring nine times for the 9 o'clock Mass and felt
-        relieved. He said to himself, "Maybe this was the right choice."
-      </p>
-      <p className="secret__text">
-        When it was time for the 11 o'clock Mass, the bell began to ring. But at
-        the tenth count, it stopped.
-      </p>
-      <p className="secret__text">
-        The Priest's anxieties were renewed, but all the congregation had come
-        in and already filled the pews and the Mass needed to go on. So, the
-        Priest went on as usual but with the poor old man in the back of his
-        head.
-      </p>
-      <p className="secret__text">
-        After Mass, the Priest began to make his way towards the front of the
-        church and saw a crowd of people gathered around the foot of the bell
-        tower. He pushed his way through to have a look. There on the stone
-        floor was the broken body of the poor old man.
-      </p>
-      <p className="secret__text">
-        One of the women, saddened by the misfortune, looked mournfully at the
-        Priest and said, "Father, did you know this man?
-      </p>
-      <p className="secret__text">
-        Then the Priest said, "I didn't know his name, but his face rings a
-        bell."
-      </p>
       {/* Joke No. 5 */}
       <section className="secret__section">
         <h2 className="secret__title">The Three Brothers</h2>
@@ -228,8 +229,8 @@ function SecretPage() {
         </p>
         <p className="secret__text">
           The bartender fills three pint glasses with Guinness and slides them
-          over to the Irishman. One at a time, the Irishman takes a glass and
-          raises it like a toast before he drinks it.
+          over to the Irishman. One by one, the Irishman takes a glass, raises
+          it to toast, and drinks it.
         </p>
         <p className="secret__text">
           The puzzled barteneder asks him, "I don't mean to be rude, but why did
@@ -246,11 +247,11 @@ function SecretPage() {
           day.
         </p>
         <p className="secret__text">
-          This goes on for a little over year. Many of the regulars came to know
-          and love the Irishman and the stories he would tell of him and his two
-          brothers getting into the worst sort of trouble imaginbale when they
-          were young. The bartender also grew to liking the Irishman, even to
-          the point of fondness.
+          This goes on for a little over a year. Many of the regulars came to
+          know and love the Irishman and the stories he would tell of him and
+          his two brothers getting into the worst sort of trouble imaginable
+          when they were young. The bartender also grew to liking the Irishman,
+          even to the point of fondness.
         </p>
         <p className="secret__text">
           One day, as the bartender was cleaning some glasses, the Irishman
@@ -272,7 +273,7 @@ function SecretPage() {
           "I'm so sorry about your loss."
         </p>
         <p className="secret__text">
-          The Irishman looked up at him confused. He says, "What loss?"
+          The Irishman looks up at him confused. He says, "What loss?"
         </p>
         <p className="secret__text">
           The bartender says, "The loss of one of your brothers. You've only got

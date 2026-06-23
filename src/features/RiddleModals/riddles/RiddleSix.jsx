@@ -11,7 +11,7 @@ function RiddleSix({ isOpen, onClose }) {
   const [answerFive, setAnswerFive] = useState("");
 
   const secretPage = (
-    <NavLink to="/secret">
+    <NavLink to="/secret" onClick={onClose}>
       <span className="modal__link">Treasure</span>
     </NavLink>
   );
@@ -77,43 +77,53 @@ function RiddleSix({ isOpen, onClose }) {
         the end of the passageway.
       </p>
       <p className="modal__text">
-        You come to an amber, illuminated inscription on the wall, beside which
-        stands a heavy, oak door. You notice the inscription is incomplete with
-        five empty slots where you think runes might fit. The inscription reads
-        thus:
+        You come to an illuminated, amber-colored inscription on the wall,
+        beside which stands a heavy, oak door. You notice the inscription is
+        incomplete with five empty slots where you think runes might fit. The
+        inscription reads thus:
       </p>
       <div className="modal__content">
         <p className="modal__text modal__text_italic">
-          Food is not your present liking?
+          My home is within, and I always go out,
         </p>
         <p className="modal__text modal__text_italic">
-          Drink is not to you inviting?
+          Sometimes freely, sometimes withheld.
         </p>
         <p className="modal__text modal__text_italic">
-          Tell me now and tell me true,
+          I am often followed by others,
         </p>
         <p className="modal__text modal__text_italic">
-          What has made you sad and blue?
+          And I follow others often.
         </p>
         <p className="modal__text modal__text_italic">
-          Are you sick? How can you tell?
+          I brighten up each room I am in.
         </p>
         <p className="modal__text modal__text_italic">
-          Medicine won't make you well?
+          I can draw large crowds around me.
         </p>
         <p className="modal__text modal__text_italic">
-          Mark my words, my better half:
+          Everyone wants to hear me.
         </p>
         <p className="modal__text modal__text_italic">
-          All you have to do is...
+          Some have never known me.
         </p>
+        <p className="modal__text modal__text_italic">
+          I am medicine for those with melancholy.
+        </p>
+        <p className="modal__text modal__text_italic">
+          I am wine for those who weep.
+        </p>
+        <p className="modal__text modal__text_italic">
+          I am balm for those with heartbreak.
+        </p>
+        <p className="modal__text modal__text_italic">What am I? A...</p>
       </div>
       <div className="modal__input-container">
         <input
           className="modal__input modal__input_otp"
           type="text"
-          id="riddle-six"
-          name="riddle-six"
+          id="riddle-six-one"
+          name="riddle-six-one"
           maxLength={1}
           onChange={(e) => {
             setAnswerOne(e.target.value);
@@ -124,8 +134,8 @@ function RiddleSix({ isOpen, onClose }) {
         <input
           className="modal__input modal__input_otp"
           type="text"
-          id="riddle-six"
-          name="riddle-six"
+          id="riddle-six-two"
+          name="riddle-six-two"
           maxLength={1}
           onChange={(e) => {
             setAnswerTwo(e.target.value);
@@ -136,8 +146,8 @@ function RiddleSix({ isOpen, onClose }) {
         <input
           className="modal__input modal__input_otp"
           type="text"
-          id="riddle-six"
-          name="riddle-six"
+          id="riddle-six-three"
+          name="riddle-six-three"
           maxLength={1}
           onChange={(e) => {
             setAnswerThree(e.target.value);
@@ -148,8 +158,8 @@ function RiddleSix({ isOpen, onClose }) {
         <input
           className="modal__input modal__input_otp"
           type="text"
-          id="riddle-six"
-          name="riddle-six"
+          id="riddle-six-four"
+          name="riddle-six-four"
           maxLength={1}
           onChange={(e) => {
             setAnswerFour(e.target.value);
@@ -160,8 +170,8 @@ function RiddleSix({ isOpen, onClose }) {
         <input
           className="modal__input modal__input_otp"
           type="text"
-          id="riddle-six"
-          name="riddle-six"
+          id="riddle-six-five"
+          name="riddle-six-five"
           maxLength={1}
           onChange={(e) => {
             setAnswerFive(e.target.value);
