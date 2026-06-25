@@ -1,3 +1,7 @@
 # Marc Pickelman's Portfolio
 
-- Marc Pickelman is a Full-Stack Software Engineer
+Reflecting my love for books, literature, and all things to do with words and writing, I created my portfolio with this theme in mind.
+
+My portfolio was made using React.js and CSS.
+
+Enjoy. God bless you.

@@ -8,7 +8,13 @@ function About({ onRiddleClick }) {
       <h1 className="about__header">About</h1>
       <section className="about__section about__section_intro">
         <div className="about__container">
-          <img className="about__image" src={profile} onClick={onRiddleClick} />
+          <div className="about__image-container">
+            <img
+              className="about__image"
+              src={profile}
+              onClick={onRiddleClick}
+            />
+          </div>
           <div className="about__content">
             <p className="about__text about__text_intro">
               I'm Marc Pickelman, a Full-Stack Software Engineer who hails from

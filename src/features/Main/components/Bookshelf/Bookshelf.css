@@ -24,3 +24,15 @@
   box-shadow: 0 5px 7px #000;
   border-radius: 2px;
 }
+
+@media (max-width: 1200px) {
+  .bookshelf__shelf {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .bookshelf__shelf {
+    width: 100%;
+  }
+}

@@ -69,3 +69,33 @@
   opacity: 0.6;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .seo__header_one {
+    font-size: 26px;
+  }
+
+  .seo__section {
+    width: 100%;
+  }
+
+  .seo__header_two {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+
+  .seo__title {
+    margin: 0 0 4px;
+    font-size: 20px;
+  }
+
+  .seo__date {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+
+  .seo__text {
+    margin: 0;
+    font-size: 14px;
+  }
+}

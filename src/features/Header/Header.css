@@ -69,3 +69,28 @@
 .haeder__icon {
   width: 50px;
 }
+
+@media (max-width: 900px) {
+  .header {
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .header__icon {
+    width: 30px;
+  }
+
+  .header__title {
+    font-size: 24px;
+  }
+
+  .header__nav {
+    gap: 10px;
+  }
+
+  .header__nav-button {
+    padding: 0 2px;
+    font-size: 16px;
+  }
+}

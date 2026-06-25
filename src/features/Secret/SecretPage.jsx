@@ -284,6 +284,22 @@ function SecretPage() {
           given up the ghost. I just quit drinking."
         </p>
       </section>
+      <section className="secret__section">
+        <h2 className="secret__title secret__text_italic">
+          The Origin of the Riddles
+        </h2>
+        <p className="secret__text secret__text_italic">
+          All of the riddles used to make up the riddle-game, except for the one
+          titled "Gelachter", I did not create but borrowed from literature.
+          Here are their origins as follows:
+        </p>
+        <p className="secret__text secret__text_italic">
+          The Riddle of the Sphinx: "Oedipus Rex;" The Doors of Durin: "The Lord
+          of the Rings, The Fellowship of the Ring;" Going to St. Ives: "Mother
+          Goose;" Riddles in the Dark: "The Hobbit;" Portia's Puzzle: "The
+          Merchant of Venice."
+        </p>
+      </section>
     </div>
   );
 }

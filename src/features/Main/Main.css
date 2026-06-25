@@ -101,3 +101,54 @@
   padding: 0 0 75px;
   border-bottom: 1px solid black;
 }
+
+@media (max-width: 1200px) {
+  .main__intro {
+    font-size: 24px;
+  }
+
+  .main__header {
+    font-size: 50px;
+  }
+
+  .main__text_right {
+    margin: 0 0 50px 275px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main__intro {
+    margin: 30px 0;
+    padding: 0 0 30px;
+    font-size: 18px;
+  }
+
+  .main__header {
+    font-size: 26px;
+  }
+
+  .main__featured-header {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main__works-header {
+    margin: 0 0 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main__text_right {
+    margin: 0 0 50px 120px;
+  }
+
+  .main__text {
+    font-size: 14px;
+  }
+
+  .main__subtext {
+    margin: 0;
+    font-size: 14px;
+  }
+}

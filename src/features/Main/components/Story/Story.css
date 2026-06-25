@@ -38,3 +38,28 @@
 .story__icon:hover {
   opacity: 0.6;
 }
+
+@media (max-width: 1200px) {
+  .story__image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .story__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .story__row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .story__image {
+    width: 200px;
+  }
+}
